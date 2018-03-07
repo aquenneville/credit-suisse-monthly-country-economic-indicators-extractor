@@ -29,6 +29,7 @@ TODO List
 ------------
 - [ ] Finish readme
 - [ ] Screenshots:  
+- [ ] Add jsmooth, exe package
 
 Changelog
 ------------
