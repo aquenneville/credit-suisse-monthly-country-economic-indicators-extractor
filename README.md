@@ -1,6 +1,6 @@
 # credit-suisse-monthly-country-economic-indicators-extractor
 
-A friend at ![Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in the Credit Suisse pdf docunent. 
+A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in the Credit Suisse pdf docunent. 
 
 Requirements
 ------------
