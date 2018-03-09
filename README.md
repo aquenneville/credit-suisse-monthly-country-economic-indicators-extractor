@@ -1,6 +1,6 @@
 # credit-suisse-monthly-country-economic-indicators-extractor
 
-A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in the Credit Suisse pdf docunent. 
+A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in his Credit Suisse pdf document (CS2016.pdf). 
 
 Requirements
 ------------
@@ -10,7 +10,10 @@ Shell/git skills to run this app
 
 Usage 
 ------------
-
+Linux/Mac: Java -jar 
+Windows: cs-markets-cei-extractor.exe -pdf_file CS2016.pdf
+-pdf_file: (mandatory) pdf file
+-page: (optional) page number to extract
 
 Features 
 ------------
@@ -28,9 +31,10 @@ Screenshots
 TODO List
 ------------
 - [ ] Finish readme
-- [ ] Screenshots:  
+- [ ] Add Screenshots
 - [ ] Add jsmooth, exe package
 - [ ] Add Usage
+- [ ] More testing... file exist, page in range of doc, etc
 
 Changelog
 ------------
