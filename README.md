@@ -26,7 +26,7 @@ Features
 - Pdf extraction with iText
 - Regex
 - Data sent to Excel using Poi
-- Exe package using JSmooth
+- Exe package using JSmooth (to be used in Windows)
 - User can extract data until he presses 'Q'
 
 Screenshots
