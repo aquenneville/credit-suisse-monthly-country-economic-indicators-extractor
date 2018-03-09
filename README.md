@@ -8,12 +8,18 @@ Java v7 or higher
 
 Shell/git skills to run this app
 
+Credit Suisse pdf document with key tables
+
 Usage 
 ------------
-Linux/Mac: Java -jar 
+Linux/Mac: java -jar [ ] -pdf_file CS2016.pdf -page 9
+
 Windows: cs-markets-cei-extractor.exe -pdf_file CS2016.pdf
+
 -pdf_file: (mandatory) pdf file
+
 -page: (optional) page number to extract
+
 
 Features 
 ------------
