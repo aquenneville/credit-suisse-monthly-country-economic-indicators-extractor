@@ -10,14 +10,14 @@
 <classPath>target\test-classes</classPath>
 <classPath>target\classes</classPath>
 <embeddedJar>true</embeddedJar>
-<executableName>CreditSuisseMCEIExtractor.exe</executableName>
-<iconLocation>..\ChaseBankStatementParser\package\images.png</iconLocation>
+<executableName>cs_markets_cei_extractor.exe</executableName>
+<iconLocation>images.png</iconLocation>
 <initialMemoryHeap>-1</initialMemoryHeap>
-<jarLocation>target\CreditSuisseMarketsCountryEconomicIndicatorsExtractor-0.0.1.jar</jarLocation>
+<jarLocation>..\target\CreditSuisseMarketsCountryEconomicIndicatorsExtractor-0.0.1.jar</jarLocation>
 <mainClassName>creditsuisse.CreditSuisseMCEIExtractor</mainClassName>
 <maximumMemoryHeap>-1</maximumMemoryHeap>
 <maximumVersion></maximumVersion>
-<minimumVersion>1.7</minimumVersion>
+<minimumVersion>1.8</minimumVersion>
 <skeletonName>Console Wrapper</skeletonName>
 <skeletonProperties>
 <key>Message</key>
@@ -26,7 +26,7 @@ Please download it at http://www.java.com</value>
 </skeletonProperties>
 <skeletonProperties>
 <key>PressKey</key>
-<value>0</value>
+<value>1</value>
 </skeletonProperties>
 <skeletonProperties>
 <key>Debug</key>
