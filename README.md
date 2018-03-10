@@ -33,7 +33,7 @@ Screenshots
 ------------
 <img width="200" alt="1st page" src="cs2016-page1.png">
 <img width="400" alt="Table data to extract" src="cs2016-page21.png">
-<img width="200" alt="Loop execution" src="screenshot-execution.png>
+<img width="400" alt="Loop execution" src="screenshot-execution.png">
 
 TODO List
 ------------
