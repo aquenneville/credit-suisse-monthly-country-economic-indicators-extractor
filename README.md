@@ -17,6 +17,7 @@ Linux/Mac: java -jar [ ] -pdf_file CS2016.pdf -page 9
 Windows: cs-markets-cei-extractor.exe -pdf_file CS2016.pdf
 
 -pdf_file: (mandatory) pdf file
+
 -page: (optional) page number to extract
 
 
