@@ -4,7 +4,7 @@ A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked m
 
 Requirements
 ------------
-Java v7 or higher
+Java v7 or higher, No Java required on Windows run the executable.
 
 Shell/git skills to run this app
 
@@ -17,7 +17,6 @@ Linux/Mac: java -jar [ ] -pdf_file CS2016.pdf -page 9
 Windows: cs-markets-cei-extractor.exe -pdf_file CS2016.pdf
 
 -pdf_file: (mandatory) pdf file
-
 -page: (optional) page number to extract
 
 
