@@ -10,13 +10,7 @@ public class ITextPdfService {
 		try {
 			PdfReader reader = new PdfReader(filename);
 			int n = reader.getNumberOfPages();
-			textReturned = PdfTextExtractor.getTextFromPage(reader, page); // Extracting
-																			// the
-																			// content
-																			// from
-																			// a
-																			// particular
-																			// page.
+			textReturned = PdfTextExtractor.getTextFromPage(reader, page); // Extracting																// page.
 			System.out.println(textReturned);
 			reader.close();
 		} catch (Exception e) {

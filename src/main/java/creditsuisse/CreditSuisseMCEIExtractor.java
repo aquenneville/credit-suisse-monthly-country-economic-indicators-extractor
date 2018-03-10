@@ -74,7 +74,7 @@ public class CreditSuisseMCEIExtractor {
 						String content = PdfBoxService.extractTextFromPage(pdfFile, pageNumber);
 						POIExcelService.saveTextInExcelFile(pdfFile, pageNumber, content);
 					}
-					System.out.print("Please enter the page number or type [Q]: ");
+					System.out.print("Please enter the page number or type [Q] to quit: ");
 				}
 			}			
 			System.out.println("Done");
