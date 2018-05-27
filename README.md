@@ -10,7 +10,7 @@ Shell/git skills to run this app
 
 Credit Suisse pdf document with key tables
 
-The Excel file is in the project folder. In Spring boot the Excel file can be downloaded. 
+The Excel file is generated in the project folder. In Spring boot the Excel file can be downloaded. 
 
 Features 
 ------------
@@ -42,6 +42,7 @@ TODO List
 - [x] Add jsmooth, exe package
 - [ ] Add Usage
 - [ ] Refactor code
+- [ ] Add Heroku deployment
 - [ ] More testing... file exist, page in range of doc, etc
 
 
