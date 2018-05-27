@@ -35,7 +35,7 @@ Screenshots
 <img width="400" alt="Table data to extract" src="images/cs2016-page21.png">
 
 Spring boot application
-<img width="400" alt="Springboot execution" src="images/screenshot-execution.png">
+<img width="400" alt="Springboot execution" src="images/screenshot-springboot-execution.png">
 
 Standalone application
 <img width="400" alt="Loop execution" src="images/screenshot-execution.png">
