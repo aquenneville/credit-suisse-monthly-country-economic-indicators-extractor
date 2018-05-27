@@ -10,6 +10,8 @@ Shell/git skills to run this app
 
 Credit Suisse pdf document with key tables
 
+The Excel file is in the project folder. In Spring boot the Excel file can be downloaded. 
+
 Features 
 ------------
 - Pdf extraction with iText
