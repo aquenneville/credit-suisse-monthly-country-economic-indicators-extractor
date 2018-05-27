@@ -21,9 +21,10 @@ Features
 - User can extract data until he presses 'Q' to quit
 - Spring boot application version (I reused the code for the upload from spring.io: https://spring.io/guides/gs/uploading-files/)
 
-Usage 
+Spring boot first App Run  
 ------------
-Spring boot: start spring boot, open browser at: http://localhost:8080
+mvn clean install 
+mvn --projects credit-suisse-monthly-country-economic-indicators-extractor spring-boot:run, open browser at: http://localhost:8080
 
 Standalone app:
 On Linux/Mac: Open a Terminal and run: java -jar [ ] -pdf_file CS2016.pdf -page 9
@@ -40,7 +41,7 @@ TODO List
 - [ ] Finish readme
 - [x] Add Screenshots
 - [x] Add jsmooth, exe package
-- [ ] Add Usage
+- [x] Add Usage
 - [ ] Refactor code
 - [ ] Add Heroku deployment
 - [ ] More testing... file exist, page in range of doc, etc
