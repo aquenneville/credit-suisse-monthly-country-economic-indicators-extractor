@@ -33,6 +33,11 @@ Screenshots
 ------------
 <img width="200" alt="1st page" src="images/cs2016-page1.png">
 <img width="400" alt="Table data to extract" src="images/cs2016-page21.png">
+
+Spring boot application
+<img width="400" alt="Springboot execution" src="images/screenshot-execution.png">
+
+Standalone application
 <img width="400" alt="Loop execution" src="images/screenshot-execution.png">
 
 TODO List
