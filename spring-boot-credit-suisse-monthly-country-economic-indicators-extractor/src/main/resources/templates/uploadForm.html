@@ -1,0 +1,37 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>        
+        <h2>
+        <img height="42" width="42" src="data:image/png;base64,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"/>
+        Credit Suisse Markets Country Economic Indicators Extractor</h2>
+    </div>
+	<div th:if="${message}">
+		<h2 th:text="${message}"/>
+	</div>
+
+	<div>
+		<form method="POST" enctype="multipart/form-data" action="/">
+			<table>
+				<tr><td>File to upload:</td><td><input type="file" name="file" /></td></tr>
+				<tr><td>Page number:</td><td><input type="input" name="pageNumber" /></td></tr>
+				<tr><td></td><td><input type="submit" value="Upload" /></td></tr>
+			</table>
+		</form>
+	</div>
+
+	<div>
+		<ul>
+			<li th:each="file : ${files}">
+				<a th:href="${file}" th:text="${file}" />
+			</li>
+		</ul>
+	</div>
+
+</body>
+</html>
