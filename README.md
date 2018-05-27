@@ -1,17 +1,29 @@
 # credit-suisse-monthly-country-economic-indicators-extractor
 
-A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in his Credit Suisse pdf document (CS2016.pdf). 
+A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in his Credit Suisse pdf document (CS2016.pdf). I created a JSmooth wrapper standalone application and a Spring boot application.
 
 Requirements
 ------------
-Java v7 or higher, No Java required on Windows run the executable.
+Java v8 or higher, No Java required on Windows run the executable.
 
 Shell/git skills to run this app
 
 Credit Suisse pdf document with key tables
 
+Features 
+------------
+- Pdf extraction with iText
+- Regex
+- Data sent to Excel using Poi
+- Exe package using JSmooth (to be used in Windows)
+- User can extract data until he presses 'Q' to quit
+- Spring boot application version (I reused the code for the upload from spring.io: https://spring.io/guides/gs/uploading-files/)
+
 Usage 
 ------------
+Spring boot: start spring boot, open browser at: http://localhost:8080
+
+Standalone app:
 On Linux/Mac: Open a Terminal and run: java -jar [ ] -pdf_file CS2016.pdf -page 9
 
 On Windows: Open a cmd window and run: cs-markets-cei-extractor.exe -pdf_file CS2016.pdf
@@ -21,13 +33,15 @@ On Windows: Open a cmd window and run: cs-markets-cei-extractor.exe -pdf_file CS
 -page: (optional) page number to extract
 
 
-Features 
+TODO List
 ------------
-- Pdf extraction with iText
-- Regex
-- Data sent to Excel using Poi
-- Exe package using JSmooth (to be used in Windows)
-- User can extract data until he presses 'Q' to quit
+- [ ] Finish readme
+- [x] Add Screenshots
+- [x] Add jsmooth, exe package
+- [ ] Add Usage
+- [ ] Refactor code
+- [ ] More testing... file exist, page in range of doc, etc
+
 
 Screenshots
 ------------
@@ -40,13 +54,6 @@ Spring boot application
 Standalone application
 <img width="400" alt="Loop execution" src="images/screenshot-execution.png">
 
-TODO List
-------------
-- [ ] Finish readme
-- [ ] Add Screenshots
-- [ ] Add jsmooth, exe package
-- [ ] Add Usage
-- [ ] More testing... file exist, page in range of doc, etc
 
 Changelog
 ------------
