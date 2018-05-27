@@ -22,11 +22,15 @@ Features
 - Spring boot application version (I reused the code for the upload from spring.io: https://spring.io/guides/gs/uploading-files/)
 
 Spring boot first App Run  
-------------
+-------------------------
 mvn clean install 
-mvn --projects credit-suisse-monthly-country-economic-indicators-extractor spring-boot:run, open browser at: http://localhost:8080
 
-Standalone app:
+mvn --projects spring-boot-credit-suisse-monthly-country-economic-indicators-extractor spring-boot:run
+
+Then open your browser at: http://localhost:8080
+
+Running the Standalone app
+--------------------------
 On Linux/Mac: Open a Terminal and run: java -jar [ ] -pdf_file CS2016.pdf -page 9
 
 On Windows: Open a cmd window and run: cs-markets-cei-extractor.exe -pdf_file CS2016.pdf
