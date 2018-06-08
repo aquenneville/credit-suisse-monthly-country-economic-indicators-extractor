@@ -10,7 +10,7 @@ Shell/git skills to run this app
 
 Credit Suisse pdf document with key tables
 
-The Excel file is in the project folder. In Spring boot the Excel file can be downloaded. 
+The Excel file is generated in the project folder. In Spring boot the Excel file can be downloaded. 
 
 Features 
 ------------
@@ -21,11 +21,16 @@ Features
 - User can extract data until he presses 'Q' to quit
 - Spring boot application version (I reused the code for the upload from spring.io: https://spring.io/guides/gs/uploading-files/)
 
-Usage 
-------------
-Spring boot: start spring boot, open browser at: http://localhost:8080
+Spring boot first App Run  
+-------------------------
+mvn clean install 
 
-Standalone app:
+mvn --projects spring-boot-credit-suisse-monthly-country-economic-indicators-extractor spring-boot:run
+
+Then open your browser at: http://localhost:8080
+
+Running the Standalone app
+--------------------------
 On Linux/Mac: Open a Terminal and run: java -jar [ ] -pdf_file CS2016.pdf -page 9
 
 On Windows: Open a cmd window and run: cs-markets-cei-extractor.exe -pdf_file CS2016.pdf
@@ -40,8 +45,9 @@ TODO List
 - [ ] Finish readme
 - [x] Add Screenshots
 - [x] Add jsmooth, exe package
-- [ ] Add Usage
+- [x] Add Usage
 - [ ] Refactor code
+- [ ] Add Heroku deployment
 - [ ] More testing... file exist, page in range of doc, etc
 
 
