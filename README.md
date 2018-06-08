@@ -2,7 +2,7 @@
 
 # credit-suisse-monthly-country-economic-indicators-extractor
 
-A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in his Credit Suisse pdf document (CS2016.pdf). I created a JSmooth wrapper standalone application and a Spring boot application.
+A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in his Credit Suisse pdf document (CS2016.pdf). I created a JSmooth wrapper standalone application and a Spring boot application. Both of the projects can be built from the parent pom in the main folder.
 
 Requirements
 ------------
