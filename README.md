@@ -48,6 +48,7 @@ TODO List
 - [x] Add Screenshots
 - [x] Add jsmooth, exe package
 - [x] Add Usage
+- [x] Add Travis CI build badge
 - [ ] Refactor code
 - [ ] Add Heroku deployment
 - [ ] More testing... file exist, page in range of doc, etc
