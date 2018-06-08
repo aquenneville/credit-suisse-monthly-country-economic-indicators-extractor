@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>github.aq</groupId>
-	<artifactId>spring-boot-creditsuisse-data-extractor</artifactId>
+	<artifactId>spring-boot-credit-suisse-monthly-country-economic-indicators-extractor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
+    
 	<name>spring-boot-creditsuisse-data-extractor</name>
 	<description>Demo project for Spring Boot</description>
 
