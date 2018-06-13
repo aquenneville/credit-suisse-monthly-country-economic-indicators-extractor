@@ -2,7 +2,7 @@
 
 # credit-suisse-monthly-country-economic-indicators-extractor
 
-A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in his Credit Suisse pdf document (CS2016.pdf). I created a JSmooth wrapper standalone application and a Spring boot application. Both of the projects can be built from the parent pom in the main folder.
+A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in his Credit Suisse pdf document (CS2016.pdf - example page 21). I created a JSmooth wrapper standalone application and later a Spring boot application hosted on Heroku. Both of the projects can be built from the parent pom in the main folder.
 
 Requirements
 ------------
@@ -50,7 +50,11 @@ TODO List
 - [x] Add Usage
 - [x] Add Travis CI build badge
 - [ ] Refactor code
-- [ ] Add Heroku deployment
+- [ ] Add field validation
+- [ ] Add page or pages feature 
+- [ ] Add user instructions on page
+- [x] Add Heroku deployment
+- [x] Add Bootstrap and Jquery
 - [ ] More testing... file exist, page in range of doc, etc
 
 
@@ -70,3 +74,4 @@ Standalone application
 
 Changelog
 ------------
+- Bootstrap added to web page. 
