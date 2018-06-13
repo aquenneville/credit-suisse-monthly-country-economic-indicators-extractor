@@ -21,7 +21,7 @@ Features
 - Data sent to Excel using Poi
 - Exe package using JSmooth (to be used in Windows)
 - User can extract data until he presses 'Q' to quit
-- Spring boot application version (I reused the code for the upload from spring.io: https://spring.io/guides/gs/uploading-files/)
+- Spring boot application version (I tweaked the code for the upload from spring.io: https://spring.io/guides/gs/uploading-files/)
 
 Spring boot first App Run  
 -------------------------
