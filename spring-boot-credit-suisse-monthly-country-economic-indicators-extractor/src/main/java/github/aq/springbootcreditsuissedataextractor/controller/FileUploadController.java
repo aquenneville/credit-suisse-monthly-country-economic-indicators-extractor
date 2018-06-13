@@ -60,14 +60,26 @@ public class FileUploadController {
             @RequestParam("pageNumber") String pageNumberParam,
             RedirectAttributes redirectAttributes) {
 
-        String filename = storageService.store(pdfFile);
-        int pageNumber = Integer.parseInt(pageNumberParam);
-        String content = PdfBoxService.extractTextFromPage(new StorageProperties().getUploadLocation() + "/"+filename, pageNumber);
-        POIExcelService.saveTextInExcelFile(new StorageProperties().getDownloadLocation(), 
-                filename, pageNumber, content);
-        redirectAttributes.addFlashAttribute("message",
-                "You successfully uploaded " + pdfFile.getOriginalFilename() + "! Your Excel sheet is ready to be downloaded!");
-
+        String filename = null;
+        
+        if (pdfFile.getSize() == 0) {
+            redirectAttributes.addFlashAttribute("message", "The file to upload field is empty, it requires the user to select a pdf file!");
+            return "redirect:/";
+        } else if (!pdfFile.getOriginalFilename().endsWith(".pdf")) {
+            redirectAttributes.addFlashAttribute("message", "The file to upload field requires the user to select a pdf file!");
+            return "redirect:/";
+        }
+        filename = storageService.store(pdfFile);
+        try {
+            int pageNumber = Integer.parseInt(pageNumberParam.trim());
+            String content = PdfBoxService.extractTextFromPage(new StorageProperties().getUploadLocation() + "/"+filename, pageNumber);
+            POIExcelService.saveTextInExcelFile(new StorageProperties().getDownloadLocation(), 
+                    filename, pageNumber, content);
+            redirectAttributes.addFlashAttribute("message",
+                    "You successfully uploaded " + pdfFile.getOriginalFilename() + "! Your Excel sheet is ready to be downloaded!");
+        } catch (NumberFormatException exc) {
+            redirectAttributes.addFlashAttribute("message", "The page number field requires a number!");
+        }
         return "redirect:/";
     }
 
