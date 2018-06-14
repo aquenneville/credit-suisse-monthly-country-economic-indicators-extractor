@@ -11,6 +11,7 @@
     <name>Parent</name>
 
     <modules>
+        <module>credit-suisse-monthly-country-economic-indicators-extractor-common</module>
         <module>credit-suisse-monthly-country-economic-indicators-extractor-standalone</module>
         <module>spring-boot-credit-suisse-monthly-country-economic-indicators-extractor</module>
     </modules>
