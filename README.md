@@ -2,7 +2,7 @@
 
 <img src="https://travis-ci.org/aquenneville/credit-suisse-monthly-country-economic-indicators-extractor.svg?branch=master"/>
 
-A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in his Credit Suisse pdf document (CS2016.pdf - example page 21). I created a JSmooth wrapper standalone application and later a Spring boot application hosted on Heroku. Both of the projects can be built from the parent pom in the main folder.
+A friend at [Argo Capital Management](http://www.argocm.com/about-argo), asked me to extract the data from the country economic indicators tables found in his Credit Suisse pdf document (CS2016.pdf - example page 21). I created a JSmooth wrapper standalone application and later a Spring boot application hosted on Heroku. Both of the projects can be built from the parent pom in the main folder. <a href="https://creditsuisse-mcei-extractor.herokuapp.com/">Try it here!</a>
 
 Requirements
 ------------
